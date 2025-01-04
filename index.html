@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Claw</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" id="home-link">Acceuil</a>
+        <a href="forum.html" id="forums-link">Chat</a>
+    </nav>
+
+    
+
+    <script src="script.js"></script>
+
+    <div class="form-container" id="registerContainer">
+        <h1>Inscription</h1>
+        <form id="registerForm">
+            <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+            <input type="password" id="password" placeholder="Mot de passe" required>
+            <button type="submit">S'inscrire</button>
+        </form>
+        <button id="showLogin">Déjà inscrit ? Se connecter</button>
+        <p id="statusMessage"></p>
+    </div>
+
+    <div class="form-container hidden" id="loginContainer">
+        <h1>Connexion</h1>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" placeholder="Nom d'utilisateur" required>
+            <input type="password" id="loginPassword" placeholder="Mot de passe" required>
+            <button type="submit">Se connecter</button>
+        </form>
+        <button id="showRegister">Créer un compte</button>
+        <p id="loginStatusMessage"></p>
+    </div>
+
+
+    
+</body>
+
+</html>
+
+
